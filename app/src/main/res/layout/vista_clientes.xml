@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id_del_producto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtdescripción"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion_del_producto"
+        android:textSize="16sp"
+        android:textStyle="italic"
+
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtPrecioMenudeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$60_precio_al_menudeo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtPrecioMayoreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio al Mayoreo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        tools:ignore="TextSizeCheck" />
+
+
+
+    />
+
+</LinearLayout>
